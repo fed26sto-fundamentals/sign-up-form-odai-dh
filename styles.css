@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('../fonts/Norse-Bold.otf') format('opentype'); /* Path to the OTF file */
+}
+
+.odin {
+    font-family: 'NorseBold', sans-serif;
+}
+
+.odin-logo {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.odin .odin-logo
