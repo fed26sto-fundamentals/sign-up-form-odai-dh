@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
     <title>Document</title>
 </head>
+
 <body>
     <div class="leftSide">
         <div class="odinLogo">
             <img src="/img/odin-lined.png" alt="odin logo">
-            <h1>ODIN</h1>
+            <p>ODIN</p>
+        </div>
+        <div class="leftSideFoot">
+            <p>Photo by<a href="https://unsplash.com/@haliewestphoto">Halie West</a>on <a
+            href="https://unsplash.com/@haliewestphoto">Unsplash</a></p>
+
         </div>
     </div>
+
+
+
+
+
+
+    <div class="rightSide">
+        <div class="textR">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. Sign up <em>now</em> to get started.</p>
+        </div>
+        <div class="textRs">       
+            <p> You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="form">
+            <form>
+
+                <div class="formTitle">
+                    <p>Let's do this</p>
+                </div>
+
+
+
+
+                
+                <div class="formStart">
+                    <div class="cill1">
+                        <div class="firstN">
+                            <label for="firstN">FIRST NAME</label>
+                            <input type="text" id="firstN" class="required" name="firstName" required>
+                            <span class="error-message" aria-live="polite">First Name is required</span>
+                        </div>
+                        <div class="emailIn">
+                            <label for="emailIn">EMAIL</label>
+                            <input type="email" id="emailIn" class="required" name="email" required>
+                            <span class="error-message" aria-live="polite">Email is required</span>
+                        </div>
+                        <div class="passwordIn">
+                            <label for="passwordIn">PASSWORD</label>
+                            <input type="password" id="passwordIn" class="required" name="password" required>
+                            <span class="error-message" aria-live="polite">Password is required</span>
+                        </div>
+                    </div>
+                    <div class="cill2">
+                        <div class="lastN">
+                            <label for="lastN">LAST NAME</label>
+                            <input type="text" id="lastN" class="required" name="lastName" required>
+                            <span class="error-message" aria-live="polite">Last Name is required</span>
+                        </div>
+                        <div class="nummber">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" class="required" name="phoneNumber">
+                            <span class="error-message" aria-live="polite">Phone Number is required</span>
+                        </div>
+                        <div class="passwordCon">
+                            <label for="passwordCon">CONFIRM PASSWORD</label>
+                            <input type="password" id="passwordCon" class="required" name="confirmPassword" required>
+                            <span class="error-message" aria-live="polite">Password do Not match</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+                <div class="submtion">
+                    <button id="forSubmtion"> Sign In</button>
+                    <div id="forSubmtionError"></div>
+                    <p>
+                        Already have an account? <a href="">Log in</a>
+                    </p>
+                </div>
+            </form>
+    </div>
 </body>
+
 </html>

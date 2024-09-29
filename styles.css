@@ -39,9 +39,139 @@ body {
     height: 100%;
 }
 
-.odinLogo h1{
+.odinLogo p{
     color: white;
     font-size: 80px;
     font-family: 'NorseBold', sans-serif;
+}
 
+
+.leftSideFoot {
+    display: flex;
+    justify-self: center;
+    position: relative;
+    bottom: -41vh;
+    left: 5vh;
+}
+.leftSideFoot p{
+    color: white;
+}
+.leftSideFoot a:visited{
+    color: rgb(72, 72, 158);
+}
+.leftSideFoot a:hover{
+    color: rgb(89, 53, 122);
+    transition: 0.5s;
+}
+
+
+
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.rightSide > div{
+    padding-left: 3rem;
+}
+
+.rightSide > div > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.textR, .textRs, .formTitle {
+    font-size: 1.5rem;
+}
+.textR {
+    margin-top: 8rem;
+}
+.formStart {
+    display: flex;
+    justify-content: left;
+    gap: 5rem;
+}
+.formStart div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.formStart > div {
+    margin-bottom: 2rem;
+}
+.formStart div div label{
+    font-size: 15px;
+}
+
+
+
+
+.error-message {
+    display: none;
+    color: #d30c34; /* Red text for errors */
+    font-size: 12px;
+    margin-top: -5px;
+}
+input:valid {
+    border: 1px solid #056254;
+}
+
+input:not(:focus):invalid {
+    border: 1px solid rgba(128, 128, 128, 0.2); /* Neutraler grauer Rand */
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:not(:focus):invalid + .error-message {
+    display: none;
+}
+
+input:invalid + .error-message {
+    display: block;
+    margin-top: 4px;
+}
+
+
+
+
+.formStart div div input {
+    height: 1.8rem;
+    width: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 18px;
+}
+.formStart div div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.submtion {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem
+}
+
+.submtion a {
+    color: #596D48;
+}
+.submtion a:visited {
+    color: #313d27;
+}
+
+#forSubmtion {
+    cursor: pointer;
+    height: 3rem;
+    width: 14rem;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 0.6rem;
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
 }
