@@ -128,25 +128,16 @@ body {
 
 .formStart div div input {
     width: 100%;
-    
-}
-.formStart div div input:focus {
-    border-color: #007BFF;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 1);
-
-}
-#line1{
-    width: 100%;
-    opacity: 0.1;
-    margin-top: -0.1px;
-    background-color: #313d27;
-
 }
 #line{
     width: 100%;
-    opacity: 0.1;
-    margin-bottom: -0.5px;
-    background-color: #313d27;
+    opacity: 0.2;
+    
+}
+.form div div input:focus{
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 1);
+
 }
 
 
@@ -165,9 +156,6 @@ input:not(:focus):invalid+.error-message {
 input:invalid+.error-message {
     display: block;
     margin-top: 4px;
-}
-input:not(:focus):invalid {
-    border: 1px solid rgba(128, 128, 128, 0.2); /* Neutraler grauer Rand */
 }
 
 input::placeholder {

@@ -135,18 +135,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 123, 255, 1);
 
 }
-#line1{
-    width: 100%;
-    opacity: 0.1;
-    margin-top: -0.1px;
-    background-color: #313d27;
 
-}
 #line{
     width: 100%;
-    opacity: 0.1;
-    margin-bottom: -0.5px;
-    background-color: #313d27;
+    opacity: 0.2;
+    margin-bottom: ;
 }
 
 
